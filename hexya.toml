@@ -1,0 +1,32 @@
+configfilename = ""
+datadir = "/home/ray/.hexya"
+debug = false
+demo = false
+logfile = ""
+loglevel = "info"
+logstdout = true
+modules = [
+"github.com/hexya-addons/web",
+"github.com/rayman520/MMERP_Module"
+]
+resourcedir = "./res"
+
+[db]
+  driver = "postgres"
+  host = "/var/run/postgresql"
+  name = "MMERPDB2"
+  password = ""
+  port = "5432"
+  sslca = ""
+  sslcert = ""
+  sslkey = ""
+  sslmode = "disable"
+  user = ""
+
+[server]
+  certificate = ""
+  domain = ""
+  interface = ""
+  languages = []
+  port = "8080"
+  privatekey = ""
